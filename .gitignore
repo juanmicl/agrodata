@@ -1,0 +1,3 @@
+application/vendor/
+application/config/database.php
+application/config/settings.php

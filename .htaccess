@@ -1,0 +1,9 @@
+RewriteEngine On
+
+CGIPassAuth on
+
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/foro.*
+RewriteRule (.*) index.php/$1

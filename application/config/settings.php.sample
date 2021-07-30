@@ -1,0 +1,14 @@
+<?php
+// ======= JWTOKEN KEY ======= //
+$config['jwt_key'] = '';
+
+// ======= RECAPTCHA V2 KEYS ======= //
+$config['rcapv2_public'] = '';
+$config['rcapv2_secret'] = '';
+
+// ======= RECAPTCHA V3 KEYS ======= //
+$config['rcapv3_public'] = '';
+$config['rcapv3_secret'] = '';
+
+// ======= EMAIL CONTACT ======= //
+$config['email_contact'] = 'email@email.com';
